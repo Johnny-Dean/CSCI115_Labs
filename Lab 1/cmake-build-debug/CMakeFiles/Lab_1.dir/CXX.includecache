@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CSCI 115/Lab 1/Array.cpp
+Array.h
+D:/CSCI 115/Lab 1/Array.h
+iostream
+-
+fstream
+-
+
+D:/CSCI 115/Lab 1/Array.h
+

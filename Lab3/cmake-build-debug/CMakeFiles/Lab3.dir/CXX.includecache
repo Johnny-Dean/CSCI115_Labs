@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CSCI 115/Lab3/ArraySort.h
+
+D:/CSCI 115/Lab3/main.cpp
+iostream
+-
+ArraySort.h
+D:/CSCI 115/Lab3/ArraySort.h
+

@@ -1,0 +1,4 @@
+ToolSet: w64 6.0 (local)@D:\Hard Drive Install\mingw32
+Options: 
+
+Options:
