@@ -5,13 +5,15 @@
 #ifndef LAB4_ARRAYSORT_H
 #define LAB4_ARRAYSORT_H
 class ArraySort{
-    int* myArray{};
-    int size{};
+public:
+    int* myArray;
+    int size;
 
     ArraySort();
-    void mergeSorted();
-    void quickSort();
-    void qsPartition();
-    void merge();
+    void mergeSorted(int low, int high);
+    void merge(int low, int mid, int high);
+    void printArray();
+    void quickSort(int low, int high);
+    int qsPartition(int low, int high);
 };
 #endif //LAB4_ARRAYSORT_H
