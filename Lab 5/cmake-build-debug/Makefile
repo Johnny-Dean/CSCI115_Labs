@@ -142,6 +142,33 @@ Lab_5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_5.dir\build.make CMakeFiles/Lab_5.dir/build
 .PHONY : Lab_5/fast
 
+DoubleLinkedLists.obj: DoubleLinkedLists.cpp.obj
+
+.PHONY : DoubleLinkedLists.obj
+
+# target to build an object file
+DoubleLinkedLists.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_5.dir\build.make CMakeFiles/Lab_5.dir/DoubleLinkedLists.cpp.obj
+.PHONY : DoubleLinkedLists.cpp.obj
+
+DoubleLinkedLists.i: DoubleLinkedLists.cpp.i
+
+.PHONY : DoubleLinkedLists.i
+
+# target to preprocess a source file
+DoubleLinkedLists.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_5.dir\build.make CMakeFiles/Lab_5.dir/DoubleLinkedLists.cpp.i
+.PHONY : DoubleLinkedLists.cpp.i
+
+DoubleLinkedLists.s: DoubleLinkedLists.cpp.s
+
+.PHONY : DoubleLinkedLists.s
+
+# target to generate assembly for a file
+DoubleLinkedLists.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_5.dir\build.make CMakeFiles/Lab_5.dir/DoubleLinkedLists.cpp.s
+.PHONY : DoubleLinkedLists.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Lab_5
+	@echo ... DoubleLinkedLists.obj
+	@echo ... DoubleLinkedLists.i
+	@echo ... DoubleLinkedLists.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

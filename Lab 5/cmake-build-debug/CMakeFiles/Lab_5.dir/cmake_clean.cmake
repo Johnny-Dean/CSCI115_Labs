@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Lab_5.dir/DoubleLinkedLists.cpp.obj"
   "CMakeFiles/Lab_5.dir/main.cpp.obj"
   "Lab_5.exe"
   "Lab_5.exe.manifest"
