@@ -4,15 +4,19 @@
 
 #include <iostream>
 #include "DoubleLinkedLists.h"
-
+//Constructor
 DLL::DLL() {
     head = nullptr;
     tail = nullptr;
     size = 0;
 }
-
+//Destructor
 DLL::~DLL() {
-
+    while(size!=0){
+        tail = tail->previous;
+        delete tail->next;
+    }
+    delete tail;
 }
 //Inserts to the beggining of our list if the size is 0 then we have to set our head and tail equal to this.
 void DLL::insertBeg(int data) {
@@ -200,6 +204,7 @@ void DLL::deleteSortWhile(int data) {
     while (current->data != data){
         if (doesNotExist>size){
             std::cout << "This number is not in our array." << std::endl;
+            return;
         }
         current=current->next;
         doesNotExist++;
