@@ -1,4 +1,1 @@
-"D:\Hard Drive Install\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\CSCI 115\Lab 5"
--- Configuring done
--- Generating done
--- Build files have been written to: D:/CSCI 115/Lab 5/cmake-build-debug
+CMakeLists.txt not found in D:\CSCI 115\Lab 5 Select CMakeLists.txt file...
